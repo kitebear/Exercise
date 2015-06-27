@@ -38,12 +38,12 @@
 })();
 
 var Zepto = (function() {
-    var undefined, key, $, classList, emptyArray = [], slice = emptyArray.slice,
+    var undefined, key, $, classList, emptyArray = [], slice = emptyArray.slice,//复制数组 当slice没有参数时
         document = window.document,
         elementDisplay = {}, classCache = {},
         getComputedStyle = document.defaultView.getComputedStyle,
         cssNumber = { 'column-count': 1, 'columns': 1, 'font-weight': 1, 'line-height': 1,'opacity': 1, 'z-index': 1, 'zoom': 1 },
-        fragmentRE = /^\s*<(\w+|!)[^>]*>/,
+        fragmentRE = /^\s*<(\w+|!)[^>]*>/,//匹配标签 例如:   <div>  <dsadasdas>dasda
 
     // Used by `$.zepto.init` to wrap elements, text/comment nodes, document,
     // and document fragment node types.

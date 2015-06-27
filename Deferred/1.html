@@ -195,6 +195,19 @@
 //
 //    // 调用测试
 //    when(wait(5000),wait(10000)).done(function(){alert('调用第一个done');}).done(function(){alert('调用第二个done');});
+
+//    var d= $.Deferred();
+//    var wait=function(dtd){
+//        setTimeout(function(){
+//            console.log("执行");
+//            dtd.resolve();
+//        },3000);
+//    };
+//    d.promise(wait);
+//    wait.done(function(){
+//        console.log("成功");
+//    });
+//    wait(d);
 </script>
 </body>
 </html>

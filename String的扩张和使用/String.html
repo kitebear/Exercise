@@ -16,6 +16,17 @@
 //        return this.replace(/\s+/g, '');
 //    };
 //    console.log(''.trim.apply("nidas dsa d fd"));
+
+    function trim(s){
+        return s.replace(/(^\s*)|(\s*$)/g,"");
+    }
+
+    // 文件类型判断
+    if(/.*\.css(?=\?|$)/.test("/path/to/main.css")){
+        
+    }
+
+//    console.log(trim(str));
 </script>
 </body>
 </html>
