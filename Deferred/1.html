@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript" src="../jquery-2.1.3.js"></script>
+<script type="text/javascript">
+    //    ajax操作的链式写法
+    //    $.ajax("test.html", {
+    //        success: function () {
+    //            console.log("调用成功");
+    //        },
+    //        error: function () {
+    //            console.log("调用失败");
+    //        }
+    //    });
+    //deferred 对象回调
+    //    $.ajax("test.html").done(
+    //            function(){
+    //                console.log("成");
+    //            }
+    //    ).fail(
+    //            function(){
+    //                console.log("浅");
+    //            }
+    //    )
+    //    $.when($.ajax("test.html"), $.ajax("test2.html")).done(function(){
+    //        console.log("成");
+    //    }).fail(function(){
+    //        console.log("bai");
+    //    })
+    //    var dtd = $.Deferred(); // 新建一个deferred对象
+    //    var wait=function(){
+    //        var tasks=function(){
+    //            alert("执行完毕");
+    //            dtd.resolve();//改变Deferred状态
+    //        };
+    //        setTimeout(tasks,5000);
+    //        return dtd;
+    //    };
+    //
+    //    $.when(wait()).done(function(){
+    //        console.log("成功");
+    //    }).fail(function(){
+    //        console.log("失败");
+    //    });
+
+    //    var dtd = $.Deferred(); // 新建一个deferred对象
+    //    var wait=function(){
+    //        var tasks=function(){
+    //            alert("执行完毕");
+    //            dtd.reject();//改变Deferred状态
+    //        };
+    //        setTimeout(tasks,3000);
+    //        return dtd;
+    //    };
+    //
+    //    $.when(wait(dtd)).done(function(){
+    //        console.log("成功");
+    //    }).fail(function(){
+    //        console.log("失败");
+    //    });
+    //    dtd.reject();
+
+    //promise 使用
+    //    var dtd = $.Deferred(); // 新建一个deferred对象
+    //    var wait=function(){
+    //        var tasks=function(){
+    //            alert("执行完毕");
+    //            dtd.reject();//改变Deferred状态
+    //        };
+    //        setTimeout(tasks,3000);
+    //        return dtd.promise();
+    //    };
+    //    var d=wait(dtd);
+    //    $.when(d).done(function(){
+    //        console.log("成功");
+    //    }).fail(function(){
+    //        console.log("失败");
+    //    });
+
+    //    var wait=function(){
+    //        var dtd = $.Deferred(); // 新建一个deferred对象
+    //        var tasks=function(){
+    //            alert("执行完毕");
+    //            dtd.resolve();//改变Deferred状态
+    //        };
+    //        setTimeout(tasks,3000);
+    //        return dtd.promise();
+    //    };
+    //
+    //    $.when(wait()).done(function(){
+    //        console.log("成功");
+    //    }).fail(function(){
+    //        console.log("失败");
+    //    });
+
+    //    var wait=function(dtd){
+    //        var tasks=function(){
+    //            alert("执行完毕");
+    //            dtd.resolve();
+    //        };
+    //        setTimeout(tasks,3000);
+    //        return dtd.promise();
+    //    };
+    //
+    //    $.Deferred(wait).done(function(){
+    //        console.log("成功");
+    //    }).fail(function(){
+    //        console.log("失败");
+    //    });
+
+//    var dtd = $.Deferred();
+//
+//    var wait= function(dtd){
+//        var tasks=function(){
+//            alert("开始");
+//            dtd.resolve();
+//        };
+//        setTimeout(tasks,3000);
+//    };
+//
+//    dtd.promise(wait);
+//
+//    wait.done(function(){
+//        console.log("成功");
+//    }).fail(function(){
+//        console.log("失败");
+//    });
+//
+//    wait(dtd);
+
+//    $.ajax("test.html").always(function(){
+//        console.log("成功");
+//    });
+
+//    $.ajax("test.html").then(function(){
+//        console.log("成功");
+//    });
+//
+//    // 模拟$.Deferred 的实现原理
+//    function Deferred() {
+//        this.doneCallbacks = [];
+//        this.failCallbacks = [];
+//    }
+//
+//    Deferred.prototype.done = function(cb){
+//        this.doneCallbacks.push(cb);
+//        return this;
+//    };
+//
+//    Deferred.prototype.fail = function(cb){
+//        this.failCallbacks.push(cb);
+//        return this;
+//    };
+//
+//    Deferred.prototype.resolve = function(){
+//        var dcbs = this.doneCallbacks;
+//        for(var i=0,len=dcbs.length;i<len;i++){
+//            dcbs[i]();
+//        }
+//        return this;
+//    }
+
+//    // 模拟$.when的实现
+//    function when(){
+//        var aIdx = 0, aLen=arguments.length,
+//                dfd = new Deferred();
+//
+//        function callback(){
+//            alert("已执行了[ " + ++aIdx + " ]个方法");
+//            if(aIdx == aLen) {
+//                dfd.resolve(); // 改变Deferred对象的执行状态
+//            }
+//        }
+//
+//        for(var i=0; i< aLen; i++){
+//            arguments[i].done(callback);
+//        }
+//        return dfd;
+//    }
+//
+//    // 自定义方法
+//    var wait = function(intval){
+//        var dfd = new Deferred(); //在函数内部，新建一个Deferred对象
+//        var tasks = function(){
+//            alert("耗时[ "+intval/1000+" ]秒的操作执行完毕！");
+//            dfd.resolve(); // 改变Deferred对象的执行状态
+//        };
+//        setTimeout(tasks,intval);
+//        return dfd; // 返回Deferred对象
+//    };
+//
+//    // 调用测试
+//    when(wait(5000),wait(10000)).done(function(){alert('调用第一个done');}).done(function(){alert('调用第二个done');});
+</script>
+</body>
+</html>
