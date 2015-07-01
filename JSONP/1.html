@@ -1,0 +1,38 @@
+//JSONP 跨域加载
+<!--&lt;!&ndash;<!Doctype HTML>&ndash;&gt;-->
+<!--&lt;!&ndash;<head></head>&ndash;&gt;-->
+    <!--&lt;!&ndash;<title></title>&ndash;&gt;-->
+    <!--&lt;!&ndash;<script type="text/javascript" src="http://service.lagou.com/hotword?callback=reHotwords"></script></head><body></body></html>&ndash;&gt;-->
+<!--<!Doctype html><head>-->
+    <!--<title></title>-->
+    <!--<script type="text/javascript" src="jquery-2.1.3.js"></script>-->
+    <!--<script type="text/javascript">-->
+        <!--var flightHandler = function(data){-->
+        <!--};-->
+        <!--var url = "http://www.lagou.com/js/list_count.js?v=1.5.6_2015062918";    // 创建script标签，设置其属性-->
+        <!--var script = document.createElement('script');-->
+        <!--script.setAttribute('src', url);    // 把script标签加入head，此时调用开始-->
+        <!--document.getElementsByTagName('head')[0].appendChild(script);-->
+    <!--</script></head><body>-->
+<!--<em>dasdas</em>-->
+<!--<i>dasdasd</i>-->
+<!--<font>dasdsadsa</font>-->
+    <!--<script type="text/javascript">-->
+        <!--var url_show = "http://service.lagou.com/hotword?callback=reqHotwords";-->
+        <!--function reqHotwords(json){-->
+            <!--console.log(json);-->
+        <!--}-->
+        <!--function postoA(params){-->
+            <!--$.ajax({-->
+                <!--url: url_show,-->
+                <!--data:params,-->
+                <!--dataType: 'jsonp',-->
+                <!--success: function(rs){-->
+                    <!--console.log(rs);-->
+                <!--},-->
+                <!--error: function(rs){ console.log('aerror');}-->
+            <!--});-->
+        <!--}-->
+        <!--postoA(url_show);-->
+    <!--</script>-->
+    <!--</body></html>-->
