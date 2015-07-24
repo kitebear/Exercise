@@ -140,74 +140,74 @@
 //        console.log("成功");
 //    });
 //
-//    // 模拟$.Deferred 的实现原理
-//    function Deferred() {
-//        this.doneCallbacks = [];
-//        this.failCallbacks = [];
-//    }
-//
-//    Deferred.prototype.done = function(cb){
-//        this.doneCallbacks.push(cb);
-//        return this;
-//    };
-//
-//    Deferred.prototype.fail = function(cb){
-//        this.failCallbacks.push(cb);
-//        return this;
-//    };
-//
-//    Deferred.prototype.resolve = function(){
-//        var dcbs = this.doneCallbacks;
-//        for(var i=0,len=dcbs.length;i<len;i++){
-//            dcbs[i]();
-//        }
-//        return this;
-//    }
+   // // 模拟$.Deferred 的实现原理
+   // function Deferred() {
+   //     this.doneCallbacks = [];
+   //     this.failCallbacks = [];
+   // }
 
-//    // 模拟$.when的实现
-//    function when(){
-//        var aIdx = 0, aLen=arguments.length,
-//                dfd = new Deferred();
-//
-//        function callback(){
-//            alert("已执行了[ " + ++aIdx + " ]个方法");
-//            if(aIdx == aLen) {
-//                dfd.resolve(); // 改变Deferred对象的执行状态
-//            }
-//        }
-//
-//        for(var i=0; i< aLen; i++){
-//            arguments[i].done(callback);
-//        }
-//        return dfd;
-//    }
-//
-//    // 自定义方法
-//    var wait = function(intval){
-//        var dfd = new Deferred(); //在函数内部，新建一个Deferred对象
-//        var tasks = function(){
-//            alert("耗时[ "+intval/1000+" ]秒的操作执行完毕！");
-//            dfd.resolve(); // 改变Deferred对象的执行状态
-//        };
-//        setTimeout(tasks,intval);
-//        return dfd; // 返回Deferred对象
-//    };
-//
-//    // 调用测试
-//    when(wait(5000),wait(10000)).done(function(){alert('调用第一个done');}).done(function(){alert('调用第二个done');});
+   // Deferred.prototype.done = function(cb){
+   //     this.doneCallbacks.push(cb);
+   //     return this;
+   // };
 
-//    var d= $.Deferred();
-//    var wait=function(dtd){
-//        setTimeout(function(){
-//            console.log("执行");
-//            dtd.resolve();
-//        },3000);
-//    };
-//    d.promise(wait);
-//    wait.done(function(){
-//        console.log("成功");
-//    });
-//    wait(d);
+   // Deferred.prototype.fail = function(cb){
+   //     this.failCallbacks.push(cb);
+   //     return this;
+   // };
+
+   // Deferred.prototype.resolve = function(){
+   //     var dcbs = this.doneCallbacks;
+   //     for(var i=0,len=dcbs.length;i<len;i++){
+   //         dcbs[i]();
+   //     }
+   //     return this;
+   // }
+
+   // // 模拟$.when的实现
+   // function when(){
+   //     var aIdx = 0, aLen=arguments.length,
+   //             dfd = new Deferred();
+
+   //     function callback(){
+   //         alert("已执行了[ " + ++aIdx + " ]个方法");
+   //         if(aIdx == aLen) {
+   //             dfd.resolve(); // 改变Deferred对象的执行状态
+   //         }
+   //     }
+
+   //     for(var i=0; i< aLen; i++){
+   //         arguments[i].done(callback);
+   //     }
+   //     return dfd;
+   // }
+
+   // // 自定义方法
+   // var wait = function(intval){
+   //     var dfd = new Deferred(); //在函数内部，新建一个Deferred对象
+   //     var tasks = function(){
+   //         alert("耗时[ "+intval/1000+" ]秒的操作执行完毕！");
+   //         dfd.resolve(); // 改变Deferred对象的执行状态
+   //     };
+   //     setTimeout(tasks,intval);
+   //     return dfd; // 返回Deferred对象
+   // };
+
+   // // 调用测试
+   // when(wait(5000),wait(10000)).done(function(){alert('调用第一个done');}).done(function(){alert('调用第二个done');});
+
+   // var d= $.Deferred();
+   // var wait=function(dtd){
+   //     setTimeout(function(){
+   //         console.log("执行");
+   //         dtd.resolve();
+   //     },3000);
+   // };
+   // d.promise(wait);
+   // wait.done(function(){
+   //     console.log("成功");
+   // });
+   // wait(d);
 </script>
 </body>
 </html>

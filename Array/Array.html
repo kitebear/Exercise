@@ -7,79 +7,84 @@
 <body>
 
 <script type="text/javascript">
-    Array.prototype.reduce = function (fun) {
-        if (this === void 0 || this === null) throw new TypeError()
-        var t = Object(this), len = t.length >>> 0, k = 0, accumulator
-        if (typeof fun != 'function') throw new TypeError()
-        if (len == 0 && arguments.length == 1) throw new TypeError()
+//     Array.prototype.reduce = function (fun) {
+//         if (this === void 0 || this === null) throw new TypeError()
+//         var t = Object(this), len = t.length >>> 0, k = 0, accumulator
+//         if (typeof fun != 'function') throw new TypeError()
+//         if (len == 0 && arguments.length == 1) throw new TypeError()
 
-        if (arguments.length >= 2)
-            accumulator = arguments[ 1 ];
-        else
-            do {
-                if (k in t) {
-                    accumulator = t[ k++ ];
-                    break
-                }
-                if (++k >= len) throw new TypeError()
-            } while (true);
+//         if (arguments.length >= 2)
+//             accumulator = arguments[ 1 ];
+//         else
+//             do {
+//                 if (k in t) {
+//                     accumulator = t[ k++ ];
+//                     break
+//                 }
+//                 if (++k >= len) throw new TypeError()
+//             } while (true);
 
-        while (k < len) {
-            if (k in t) accumulator = fun.call(undefined, accumulator, t[ k ], k, t)
-            k++
-        }
-        return accumulator
-    };
-    //    console.log([9,10,11,12,14,17,19].reduce(function(a,b){
-    //        return a+b;
-    //    }),10);
+//         while (k < len) {
+//             if (k in t) accumulator = fun.call(undefined, accumulator, t[ k ], k, t)
+//             k++
+//         }
+//         return accumulator
+//     };
+//     //    console.log([9,10,11,12,14,17,19].reduce(function(a,b){
+//     //        return a+b;
+//     //    }),10);
 
-    var kl = 0;
-    var tl = [ 12, 43, 12, 54, 67 ];
-    if (kl in tl) {// 这里的 in 对比的是索引 不是数值 解释： 如果tl中存在0这个索引
-//        console.log("输出");
-    }
+//     var kl = 0;
+//     var tl = [ 12, 43, 12, 54, 67 ];
+//     if (kl in tl) {// 这里的 in 对比的是索引 不是数值 解释： 如果tl中存在0这个索引
+// //        console.log("输出");
+//     }
 
-    //    console.log(tl.slice());//复制数组
+//     //    console.log(tl.slice());//复制数组
 
-    //slice 源码实现  写了3遍
-    var _slice = Array.prototype.slice;
-    Array.prototype.slice = function (begin, end) {
-        end = (typeof end !== 'undefined') ? end : this.length;// 首先判断最后的值是不是undefined 或者为空  如果是 则变成数组的长度
+//     //slice 源码实现  写了3遍
+//     var _slice = Array.prototype.slice;
+//     Array.prototype.slice = function (begin, end) {
+//         end = (typeof end !== 'undefined') ? end : this.length;// 首先判断最后的值是不是undefined 或者为空  如果是 则变成数组的长度
 
-//        下面这个判断是兼容的写法
-//        if (Object.prototype.toString.call(this) === '[object Array]') {
-//            return _slice.call(this, begin, end);
-//        }
+// //        下面这个判断是兼容的写法
+// //        if (Object.prototype.toString.call(this) === '[object Array]') {
+// //            return _slice.call(this, begin, end);
+// //        }
 
-        var i = 0, size, clone = [], len = this.length; //初始化下面使用的一些变量
+//         var i = 0, size, clone = [], len = this.length; //初始化下面使用的一些变量
 
-        var start = begin || 0; // 如果不存在的话等于0
-        start = (start >= 0) ? start : Math.max(0, len + start); // 如果 第一个值为负数则 start=len+start
+//         var start = begin || 0; // 如果不存在的话等于0
+//         start = (start >= 0) ? start : Math.max(0, len + start); // 如果 第一个值为负数则 start=len+start
 
-        var upto = (typeof end == 'number') ? Math.min(len, end) : len; // 如果 end 大于 数组长度 选择 数组长度
-        if (end < 0) {
-            upto = len + end;
-        }
+//         var upto = (typeof end == 'number') ? Math.min(len, end) : len; // 如果 end 大于 数组长度 选择 数组长度
+//         if (end < 0) {
+//             upto = len + end;
+//         }
 
-        size = upto - start;
+//         size = upto - start;
 
-        if (size > 0) {
-            clone = new Array(size);
-            if (this.charAt) {
-                for (i = 0; i < size; i++) {
-                    clone[ i ] = this.charAt(start + i);
-                }
-            } else {
-                for (i = 0; i < size; i++) {
-                    clone[ i ] = this[ start + i ];
-                }
-            }
-        }
-        return clone;
-    };
+//         if (size > 0) {
+//             clone = new Array(size);
+//             if (this.charAt) {
+//                 for (i = 0; i < size; i++) {
+//                     clone[ i ] = this.charAt(start + i);
+//                 }
+//             } else {
+//                 for (i = 0; i < size; i++) {
+//                     clone[ i ] = this[ start + i ];
+//                 }
+//             }
+//         }
+//         return clone;
+//     };
 
-    console.log(tl.slice(1,2));
+//     console.log(tl.slice(1,2));
+//     
+    var arr1=[1,3,4];  
+    var arr2=[3,4,5];  
+    arr1=arr1.concat(arr2);
+    console.log(arr1);
 </script>
 </body>
 </html>
