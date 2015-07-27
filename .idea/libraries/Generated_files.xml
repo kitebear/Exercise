@@ -3,10 +3,12 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/ES6/=&gt;箭头.js" />
+        <item url="file://$PROJECT_DIR$/Jquery/jquery-routes/test/unit/core.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/ES6/=&gt;箭头.js" />
+      <root url="file://$PROJECT_DIR$/Jquery/jquery-routes/test/unit/core.js" />
     </CLASSES>
     <SOURCES />
   </library>

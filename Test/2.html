@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<button id="n1">1</button>
+	<button id="n2">2</button>
+	<button id="n3">3</button>
+	<div id="nihaoa"></div>
+	<a href="#!3.html:nihaoa" class="hahaha">dasdsasasd</a>
+
+	<script type="text/javascript" src="../jquery-2.1.3.js"></script>
+	<script type="text/javascript">
+		(function ($) {
+	    function href_parse(key, str) {
+	        return {
+	            id: str.substring(str.indexOf(":") + 1),
+	            target_href: str.substring(str.indexOf(key) + 1, str.indexOf(":"))
+	        };
+	    }
+
+	    /**
+	     *
+	     * @param options
+	     * class String 类
+	     * key String
+	     */
+	    $.load_r = function (options) {
+	        var key = options.key || null;
+	        var className = options.className || null;
+	        if (undefined === key || undefined === className || null === key || null === className) {
+	            return;
+	        }
+	        $("." + className).click(function () {
+	            var data = href_parse(key, $(this).attr("href"));
+	            $("#" + data.id).load("/"+data.target_href);
+	        });
+	    };
+	})(jQuery);
+	</script>
+	<script type="text/javascript">
+		var n1=document.querySelector("#n1");
+		var n2=document.querySelector("#n2");
+		var n3=document.querySelector("#n3");
+		n1.onclick=function(){
+			location.hash="nihaoa";
+		};
+		n2.onclick=function(){
+			location.hash="n222";
+		};
+		n3.onclick=function(){
+			$("#nihaoa").load("3.html");
+			location.hash="432423432";
+		};
+
+		// $.load_r({
+		// 	key:"!",
+		// 	className:"hahaha"
+		// });
+
+
+	</script>
+</body>
+</html>
