@@ -1,0 +1,1 @@
+{"version":3,"sources":["const_let.es6"],"names":[],"mappings":";;AAAA;AACI,QAAI,EAAC,GAAC,CAAC,CAAC;AACR,QAAM,EAAC,GAAC,CAAC,CAAC;CACb;AACD,OAAO,CAAC,GAAG,CAAC,CAAC,CAAC,CAAC;AACf,OAAO,CAAC,GAAG,CAAC,CAAC,CAAC,CAAC","file":"const_let.js","sourcesContent":["{\n    let s=1;\n    const b=1;\n}\nconsole.log(b);\nconsole.log(s);\n"]}

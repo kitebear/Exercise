@@ -2,13 +2,15 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/ES6/=&gt;箭头.js" />
         <item url="file://$PROJECT_DIR$/Jquery/jquery-routes/test/unit/core.js" />
+        <item url="file://$PROJECT_DIR$/ES6/=&gt;箭头.js" />
+        <item url="file://$PROJECT_DIR$/ES6/const_let.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/ES6/=&gt;箭头.js" />
       <root url="file://$PROJECT_DIR$/Jquery/jquery-routes/test/unit/core.js" />
+      <root url="file://$PROJECT_DIR$/ES6/=&gt;箭头.js" />
+      <root url="file://$PROJECT_DIR$/ES6/const_let.js" />
     </CLASSES>
     <SOURCES />
   </library>
