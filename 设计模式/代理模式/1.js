@@ -70,9 +70,9 @@
 //            fn();
 //        },10000);
 //    }
-//};
+//};     
 //
-//xiaoming.sendFlower(B);  
+//xiaoming.sendFlower(B);
 
 //代理
 
