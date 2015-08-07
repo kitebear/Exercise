@@ -6,20 +6,24 @@
 </head>
 <body>
     <script type="text/javascript">
-        var b="221";
-        function a(){
-            console.log(this.b);
+        // var b="221";
+        // function a(){
+        //     console.log(this.b);
+        // }
+        // var c={
+        //     d:function(fn){
+        //         a();
+        //         arguments[0]();
+        //         setTimeout(a,0);
+        //         var e=setInterval(a,0);
+        //         clearInterval(e);
+        //     }
+        // };
+        // c.d(a);
+        var a=function(){
+            this.show=alert("sdasdasda");
         }
-        var c={
-            d:function(fn){
-                a();
-                arguments[0]();
-                setTimeout(a,0);
-                var e=setInterval(a,0);
-                clearInterval(e);
-            }
-        };
-        c.d(a);
+        a.show;
     </script>
 </body>
 </html>
