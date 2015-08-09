@@ -20,10 +20,12 @@
         //     }
         // };
         // c.d(a);
-        var a=function(){
-            this.show=alert("sdasdasda");
+        var a={
+            fn : function(){
+                alert(5);
+            }
         }
-        a.show;
+        a.fn();
     </script>
 </body>
 </html>

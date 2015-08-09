@@ -66,7 +66,7 @@
 //        console.log("收到");
 //    },
 //    listenGoodMood: function(fn){
-//        setTimeout(function(){
+//        setTimeout(function(){z
 //            fn();
 //        },10000);
 //    }
