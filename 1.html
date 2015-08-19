@@ -26,10 +26,19 @@
         //     }
         // }
         // a.fn();
-        var sad = (function(){
-            var a = 1,b=2;
-        });
-        console.log(a);
+
+        var string1 = "[00:05.73]相思[00:09.32]毛阿敏[00:12.94][00:18.42]红豆生南国，[00:21.73]是很遥远的事情。 [02:56.16]dasdasdsa";
+        console.log(string1.split(/\[\d+:\d+\.\d+\]{1,}/gi));
+
+
+        var names = 'Harry Trump ;Fred Barney; Helen Rigby ; Bill Abel ;Chris Hand ';
+
+        console.log(names);
+
+        var re = /\s*;\s*/;
+        var nameList = names.split(re);
+
+        console.log(nameList);
     </script>
 </body>
 </html>

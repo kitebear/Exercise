@@ -10,7 +10,7 @@
 //
 //var A = {
 //    receiveFlower : function(flower){
-//        console.log("收到"); 
+//        console.log("收到");
 //    }
 //};
 //
