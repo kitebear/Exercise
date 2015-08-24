@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul, li {
+            list-style: none;
+        }
+
+        .uls, .container {
+            float: left;
+            margin: 20px 0;
+        }
+
+        .uls {
+            width: 200px;
+            height: 100%;
+            display: inline-block;
+        }
+
+        .uls li {
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .active {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+<ul class="uls">
+    <li data-type="shenghuo" class="active"><a href="javascript:void(0);">生活</a></li>
+    <li data-type="ai"><a href="javascript:void(0);">爱</a></li>
+    <li data-type="geiyu"><a href="javascript:void(0);">给予</a></li>
+    <li data-type="memeda"><a href="javascript:void(0);">么么哒</a></li>
+</ul>
+<div class="container"></div>
+<script type="text/javascript" src="jquery-2.1.3.js"></script>
+<script type="text/javascript">
+    $(".uls").delegate("li", "click", function () {
+        $(".active").removeClass("active");
+        $(this).addClass("active");
+        $(".container").load($(this).attr("data-type") + ".html")
+    });
+</script>
+</body>
+</html>
