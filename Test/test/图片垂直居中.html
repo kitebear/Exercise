@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		div{
+		    width: 400px;
+		    display: inline-block;
+		    overflow: hidden;
+		    display: -webkit-box;
+		}
+		img{
+			    width: 150px;
+    			-webkit-box-flex: 1;
+		}
+		aside{
+			    -webkit-box-flex: 1;
+		}
+	</style>
+</head>
+<body>
+	<!-- <div style="height:200px;width:1000px">
+		<img src="background.png" height="50" width="50px" alt="">
+	</div> -->
+	<div>
+		<img src="touxiang.jpg" width="150" />
+		<aside>
+			<h2>你好</h2>
+			<p>哇哈哈哈哈哈哈哈哈哈哈哈哇哈哈哈哈哈哈哈哈哈哈哈哇哈哈哈哈哈哈哈哈哈哈哈哇哈哈哈哈哈哈哈哈哈哈哈哇哈哈哈哈哈哈哈哈哈哈哈哇哈哈哈哈哈哈哈哈哈哈哈哇哈哈哈哈哈哈哈哈哈哈哈哇哈哈哈哈哈哈哈哈哈哈哈哇哈哈哈哈哈哈哈哈哈哈哈</p>
+		</aside>
+	</div>
+	<script type="text/javascript">
+		Function.prototype.uncurrying = function(){
+			var self = this;
+			return function(){
+				console.log(arguments);
+				return Function.prototype.call.apply(self,arguments);
+			};
+		};
+
+		var push = Array.prototype.push.uncurrying();
+
+		var arr = [1,2,3];
+		push(arr,10,20);
+		console.log(arr);
+	</script>
+</body>
+</html>
