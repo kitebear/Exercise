@@ -76,7 +76,18 @@
     // }
     // obj.method(fn)
 
+    function nihaoa(a,b){
+        setInterval(function(){
+            a();
+            b();
+        }, 2000)
+    }
 
+    nihaoa(function(){
+        console.log("a");
+    },function(){
+        console.log("b");
+    });
 </script>
 </body>
 </html>
