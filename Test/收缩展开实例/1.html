@@ -1,0 +1,82 @@
+<style> 
+#content { 
+font-size: 14px; 
+width: 100%; 
+height: 50px; 
+background: #eee; 
+padding: 10px; 
+border: 4px #ccc double; 
+overflow: hidden; 
+} 
+#key { 
+color: red; 
+float: right; 
+margin-top: -20px; 
+} 
+span{cursor:pointer;} 
+</style> 
+<script> 
+var s=5; 
+var minheight=50; 
+var maxheight=450; 
+function shoppingcat(){ 
+  var content=document.getElementById("content"); 
+  var key = document.getElementById("key"); 
+  var t=content.style; 
+  if(t.height==""||t.height==0) 
+    t.height=minheight; 
+  var h=parseInt(t.height); 
+  if(key.innerHTML=="展开"){ 
+    h+=s; 
+    t.height=h+"px"; 
+    if(h<maxheight){ 
+      setTimeout("shoppingcat();",1); 
+    }else{ 
+      key.innerHTML="关闭"; 
+    } 
+  }else{ 
+    h-=s; 
+    t.height=h+"px"; 
+    if(h>minheight){ 
+      setTimeout("shoppingcat();",1); 
+    }else{ 
+      key.innerHTML="展开"; 
+    } 
+  } 
+} 
+</script> 
+
+<div id="content"><br/> 
+<span id="key" onclick="shoppingcat();">展开</span><br/> 
+藤床纸帐朝眠起， 
+
+说不尽、无佳思。 
+
+沈香烟断玉炉寒， 
+
+伴我情怀如水。 
+
+笛声三弄， 
+
+梅心惊破， 
+
+多少春情意。 
+
+
+小风疏雨萧萧地， 
+
+又催下、千行泪。 
+
+吹箫人去玉楼空， 
+
+肠断与谁同倚？ 
+一枝折得， 
+
+人间天上， 
+
+没个人堪寄。 
+
+欢迎再次光临 
+
+牛图库特效。 
+</div>
