@@ -6,7 +6,33 @@
 </head>
 <body>
 
-<script src="const_let.js"></script>
+<!-- <script src="const_let.js"></script> -->
 <!--<script src="=%3E箭头.js"></script>-->
+<script type="text/javascript">
+	var values = [1, 5, 12, 4, 3];
+
+	function minimumSum(arr, num) {
+	    //TODO：从arr里取num个最小的元素来相加，返回相加后的总和
+	   
+	    return arr.slice().sort(function(a, b) {
+	        return a > b ? 1 : a < b ? -1 : 0
+	    }).slice(0, num).reduce(function(prev, current) {
+	        return prev + current
+	    }, 0)
+	}
+
+	function maximumSum(arr, num) {
+	    //TODO：从arr里取num个最大的元素来相加，返回相加后的总和
+	    return arr.sort(function(a, b) {
+	        return a > b ? -1 : a < b ? 1 : 0
+	    }).slice(0, num).reduce(function(prev, current) {
+	        return prev + current
+	    }, 0);
+	}
+
+	console.log(minimumSum(values,2));
+
+	console.log(values);
+</script>
 </body>
 </html>
