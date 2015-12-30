@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .bird{
+            position: absolute;
+            top:10%;
+            min-width: 591px;
+            min-height: 571px;
+            background: url(http://img.mukewang.com/55ade1700001b38302730071.png);
+            background-size: 300% 100%;
+        }
+
+        .birdFly{
+            /*写法1*/
+            -moz-animation: bird-slow 400ms steps(1,start) infinite;
+
+            /*写法2*/
+            -webkit-animation-name: bird-slow;
+            -webkit-animation-duration: 400ms;
+            -webkit-animation-timing-function: steps(3);
+            -webkit-animation-iteration-count: infinite;
+        }
+        @keyframes bird-slow {
+            0% {background-position-x: -0px}
+            100% {background-position-x: -1773px}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bird birdFly"></div>
+    <script type="text/javascript">
+
+    </script>
+</body>
+</html>
