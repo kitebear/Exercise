@@ -4,18 +4,4 @@ console.log(ret);  // abbbeeee12223
 var a = "1234567890";
 var ret = a.replace(/((?=\d)\d{3})+\b/,"");
 console.log(ret);
-var $ = jQuery = function(){
-    return new jQuery.fn.init();
-}
 
-jQuery.fn = jQuery.prototype = {
-    init:function(){
-        return this;
-    },
-    jquery:"1.2.3",
-    length:100
-}
-
-jQuery.fn.init.prototype = jQuery.fn;
-
-alert($().length);
