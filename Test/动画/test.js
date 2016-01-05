@@ -25,13 +25,13 @@ const css = function(data, value) {
 
 const animate = function(options) {
     "use strict";
-    requestAnimationFrame(() => {
-        window.setTimeout(callback,1000/60);
-    });
+    console.log(1,this.style.left);
 };
 
 HTMLDivElement.prototype.css = css;
 HTMLDivElement.prototype.animate = animate;
+
+var dc1 = document.querySelector(".c1");
 
 console.log(dc1.css({ "background-color": "#A9A9A9", "color": "#AB59A9" }));
 
@@ -40,10 +40,5 @@ dc1.animate({
 },3000,function(){
     "use strict";
     console.log("动画执行完成");
-});
-
-animate(function(){
-    "use strict";
-
 });
 //# sourceMappingURL=1.js.map

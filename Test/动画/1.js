@@ -48,13 +48,15 @@
 	
 	var aa = "hahaha";
 	
-	var d = document.HTMLDivElement;
-	var dc = document.querySelector(".c1");
-	var dc1 = document.querySelector(".c2");
-	console.log(Node, HTMLDivElement.animate, Element);
-	// 设置CSS
-	// css("color","blue")
-	function css(data, value) {
+	/**
+	 * 设置CSS
+	 * @param data
+	 * @param value
+	 * @returns {css}
+	 * css("color","blue")
+	 * dc1.css({ "background-color": "#A9A9A9", "color": "#AB59A9" })
+	 */
+	var css = function css(data, value) {
 	    "use strict";
 	
 	    if (!data) {
@@ -68,11 +70,28 @@
 	        this.style[e] = data[e];
 	    }
 	    return this;
-	}
-	function animate() {}
+	};
+	
+	var animate = function animate(options) {
+	    "use strict";
+	
+	    console.log(1, this.style.left);
+	};
+	
 	HTMLDivElement.prototype.css = css;
 	HTMLDivElement.prototype.animate = animate;
+	
+	var dc1 = document.querySelector(".c1");
+	
 	console.log(dc1.css({ "background-color": "#A9A9A9", "color": "#AB59A9" }));
+	
+	dc1.animate({
+	    left: "50"
+	}, 3000, function () {
+	    "use strict";
+	
+	    console.log("动画执行完成");
+	});
 	//# sourceMappingURL=1.js.map
 
 /***/ }
