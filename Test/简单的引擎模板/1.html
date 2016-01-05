@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, minimum-
+scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" />
+    <title></title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+        }
+        .csDiv span{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+<div id="csDiv" class="csDiv">
+    <span>{{name}}</span><span>{{user.name}}</span><span>{{user.my.name}}</span>
+</div>
+<script type="text/javascript">
+    function telReplace(Dom,obj){
+        var str=Dom.innerHTML;
+        var newStr=str.replace(/{{([\w\.]*)}}/g,function(str,key){
+            console.log(key.split('.'));
+            var keys=key.split('.'),value=obj[keys.shift()];
+            for(var i= 0,max=keys.length;i<max;i++){
+                value=value[keys[i]];
+            }
+            if(typeof value=="undefined" || value==null){
+                value="";
+            }
+            return value;
+        });
+        Dom.innerHTML=newStr;
+    }
+    var data={
+        "name":"tx",
+        "user":{
+            "name":'user_tx',
+            "my":{
+                "name":"user_my_name"
+            }
+        }
+    }
+    var csDiv=document.getElementById('csDiv');
+    telReplace(csDiv,data);
+</script>
+</body>
+</body>
+</html>
