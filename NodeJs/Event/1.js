@@ -1,7 +1,17 @@
 const EventEmitter = require('events');
 
-class MyEmitter extends EventEmitter {}
 
+function MyEmitter(){
+    "use strict";
+
+}
+
+MyEmitter.prototype = Object.create(EventEmitter.prototype);
+
+//MyEmitter.prototype = new EventEmitter();
+
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------
 //const myEmitter = new MyEmitter();
 
 ///**
@@ -15,10 +25,29 @@ class MyEmitter extends EventEmitter {}
 // * 触发
 // */
 //myEmitter.emit('event');
+//------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------
+//const myEmitter = new MyEmitter();
+//myEmitter.on('event', (a, b) => {
+//    console.log(a, b, this);
+//    // Prints: a b {}
+//});
+//myEmitter.emit('event', 'a', 'b');
+//------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------
 const myEmitter = new MyEmitter();
-myEmitter.on('event', (a, b) => {
-    console.log(a, b, this);
-    // Prints: a b {}
+
+console.log(myEmitter._eventsCount);
+
+var m = 0;
+myEmitter.on('event', function(){
+    console.log(++m);
 });
-myEmitter.emit('event', 'a', 'b');
+myEmitter.emit('event');
+// Prints: 1
+myEmitter.emit('event');
+// Prints: 2
+//------------------------------------------------------------------------------------------------------------------------------------------------------
