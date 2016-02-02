@@ -1,14 +1,200 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02700ff8-cab2-4810-b9ba-94b7b1453d4f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/koa_and_react/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/koa_and_react/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/koa_and_react/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/koa_and_react/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/koa_and_react/routes/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/koa_and_react/routes/main.js" afterPath="" />
+    <list default="true" id="02700ff8-cab2-4810-b9ba-94b7b1453d4f" name="Default" comment="koa and react">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/highcharts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/.bithoundrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/build/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/build/ci.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/build/git-hooks/pre-commit" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/build/karma.base.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/build/karma.cover.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/build/karma.sauce.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/build/karma.unit.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/build/release.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/build/webpack.dev.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/build/webpack.test.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/circle.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/dist/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/dist/vue.common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/dist/vue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/dist/vue.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/commits/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/commits/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/elastic-header/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/elastic-header/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/firebase/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/firebase/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/firebase/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/grid/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/grid/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/grid/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/markdown/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/markdown/marked.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/markdown/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/modal/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/modal/modal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/select2/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/svg/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/svg/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/svg/svg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/todomvc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/todomvc/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/todomvc/js/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/todomvc/js/store.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/todomvc/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/todomvc/perf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/todomvc/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/tree/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/examples/tree/tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/batcher.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/compiler/compile-props.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/compiler/compile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/compiler/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/compiler/transclude.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/element/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/element/partial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/element/slot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/internal/class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/internal/component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/internal/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/internal/prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/internal/style.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/internal/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/priorities.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/bind.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/cloak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/for.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/if.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/model/checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/model/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/model/radio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/model/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/model/text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/on.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/ref.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/show.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/directives/public/text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/filters/array-filters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/filters/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/fragment/factory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/fragment/fragment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/instance/api/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/instance/api/dom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/instance/api/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/instance/api/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/instance/api/lifecycle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/instance/internal/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/instance/internal/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/instance/internal/lifecycle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/instance/internal/misc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/instance/internal/state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/instance/vue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/observer/array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/observer/dep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/observer/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/parsers/directive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/parsers/expression.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/parsers/path.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/parsers/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/parsers/text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/transition/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/transition/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/transition/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/util/component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/util/debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/util/dom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/util/env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/util/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/util/lang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/util/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/src/watcher.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/e2e/commits.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/e2e/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/e2e/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/e2e/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/e2e/svg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/e2e/todomvc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/e2e/tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/lib/MIT.LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/lib/boot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/lib/jasmine-html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/lib/jasmine.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/lib/jasmine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/lib/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/api/data_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/api/dom_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/api/events_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/api/global_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/api/lifecycle_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/async_component_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/batcher_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/cache_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/compiler/compile_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/compiler/transclude_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directive_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/element/partial_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/element/slot_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/internal/class_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/internal/component_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/internal/prop_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/internal/style_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/internal/transition_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/public/bind_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/public/cloak_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/public/el_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/public/for/for_ref_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/public/for/for_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/public/for/for_stagger_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/public/html_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/public/if_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/public/model_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/public/on_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/public/pre_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/public/ref_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/public/show_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/directives/public/text_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/filters/filters_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/instance/events_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/instance/init_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/instance/misc_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/instance/state_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/misc_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/observer/dep_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/observer/observer_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/parsers/directive_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/parsers/expression_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/parsers/path_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/parsers/template_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/parsers/text_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/transition/transition_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/util/component_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/util/debug_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/util/dom_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/util/env_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/util/lang_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/util/options_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/test/unit/specs/watcher_spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/vue/1.html" afterPath="$PROJECT_DIR$/Test/vue/1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/vue/vue.js" afterPath="$PROJECT_DIR$/Test/vue/vue.js" />
     </list>
     <ignored path="Exercise.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,15 +219,36 @@
     <favorites_list name="Exercise" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="highcharts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/highcharts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.875">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/vue/1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41860464">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html5" />
         <option value="TypeScript File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,7 +263,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ES6/demo/traceur.js" />
         <option value="$PROJECT_DIR$/慕课一练/自适应rem布局/1.es6" />
         <option value="$PROJECT_DIR$/慕课一练/自适应rem布局/1-compiled.js" />
         <option value="$PROJECT_DIR$/慕课一练/自适应rem布局/1.js" />
@@ -107,6 +313,7 @@
         <option value="$PROJECT_DIR$/koa_and_react/app.js" />
         <option value="$PROJECT_DIR$/koa_and_react/config.js" />
         <option value="$PROJECT_DIR$/koa_and_react/routes/main.js" />
+        <option value="$PROJECT_DIR$/Test/vue/1.html" />
       </list>
     </option>
   </component>
@@ -274,6 +481,186 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="每日一练" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="技巧" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commits" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Deferred" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -302,28 +689,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exercise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,15 +717,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Test/vue" />
+      <recent name="$PROJECT_DIR$/Vue" />
       <recent name="$PROJECT_DIR$/koa_and_react" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Test" />
+      <recent name="$PROJECT_DIR$/Vue" />
       <recent name="$PROJECT_DIR$/Jquery" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/设计模式/单例模式" />
-      <recent name="$PROJECT_DIR$/JSONP" />
-      <recent name="$PROJECT_DIR$/Zepto" />
     </key>
   </component>
   <component name="RunManager">
@@ -813,7 +1182,10 @@
       <workItem from="1453706710855" duration="2681000" />
       <workItem from="1453817026982" duration="121000" />
       <workItem from="1454292546642" duration="6903000" />
-      <workItem from="1454302464914" duration="15221000" />
+      <workItem from="1454302464914" duration="15253000" />
+      <workItem from="1454324487240" duration="2033000" />
+      <workItem from="1454388077913" duration="540000" />
+      <workItem from="1454403908089" duration="1343000" />
     </task>
     <task id="LOCAL-00001" summary="不声明第三个变量值交换">
       <created>1443677146913</created>
@@ -899,11 +1271,17 @@
       <option name="project" value="LOCAL" />
       <updated>1454315598211</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="koa and react">
+      <created>1454319641977</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1454319641977</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135097000" />
+    <option name="totallyTimeSpent" value="139045000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -927,22 +1305,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1002" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20997375" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2736264" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27302632" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21245421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21245421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -954,8 +1330,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -986,155 +1364,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Jquery/src/queue/delay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jquery/src/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4979253">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jquery/src/sizzle/test/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5705394">
-          <caret line="742" column="4" selection-start-line="742" selection-start-column="4" selection-end-line="742" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jquery/src/effects/animatedSelector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.186722">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jquery/src/event.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.109959">
-          <caret line="357" column="43" selection-start-line="357" selection-start-column="43" selection-end-line="357" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/动画/2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3755459">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/动画/3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6375545">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jquery/src/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40456432">
-          <caret line="13" column="69" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jquery/src/deprecated.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34232366">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jquery/src/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80912864">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jquery/src/queue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-loader/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="152" column="18" selection-start-line="152" selection-start-column="18" selection-end-line="152" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack 基本配置.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.560166">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/判断类型.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/每日一练/隐式循环.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/每日一练/事件委托.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/每日一练/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15418503">
-          <caret line="7" column="75" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/每日一练/兼容NODE,AMD,CMD以及浏览器的模块规范.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/每日一练/深拷贝.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/每日一练/clone 方法实现.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1146,7 +1375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4257642">
           <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,25 +1382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.082969435">
           <caret line="329" column="9" selection-start-line="329" selection-start-column="9" selection-end-line="329" selection-end-column="9" />
-          <folding>
-            <element signature="e#2400#3365#1" expanded="false" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#li#4;n#ul#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#li#5;n#ul#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#li#6;n#ul#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#li#7;n#ul#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#li#1;n#ul#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#li#2;n#ul#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#li#3;n#ul#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#li#4;n#ul#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#li#5;n#ul#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#li#6;n#ul#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#li#7;n#ul#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1187,7 +1396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1195,7 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1227,35 +1434,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello/src/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16587678">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/src/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1421801">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/node_modules/babel-core/register.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.047393367">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,70 +1445,283 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7393365">
           <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa_and_react/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023696683">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa_and_react/node_modules/methods/index.js">
+    <entry file="file://$PROJECT_DIR$/vue-loader/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa_and_react/node_modules/koa-router/lib/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.4814816">
-          <caret line="493" column="11" selection-start-line="493" selection-start-column="11" selection-end-line="493" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa_and_react/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa_and_react/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa_and_react/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa_and_react/config.js">
+    <entry file="file://$PROJECT_DIR$/Vue/src/util/dom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/build/ci.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/build/git-hooks/pre-commit">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/build/release.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/build/karma.base.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/build/karma.unit.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/build/karma.cover.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/build/karma.sauce.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/build/webpack.dev.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/build/webpack.test.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4566929">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.496063">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/n1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Util/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/判断类型.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16535433">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/每日一练/隐式循环.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51968503">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/每日一练/深拷贝.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51968503">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/每日一练/jquery无new构造.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35433072">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/.bithoundrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33070865">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7675941">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deferred/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3482143">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Deferred/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38392857">
+          <caret line="168" column="25" selection-start-line="168" selection-start-column="25" selection-end-line="168" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack 基本配置.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12671232">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20446736">
+          <caret line="132" column="26" selection-start-line="132" selection-start-column="26" selection-end-line="132" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/技巧/不声明第三个变量值交换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34946236">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zepto/myZepto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/每日一练/兼容NODE,AMD,CMD以及浏览器的模块规范.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5412371">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zepto/zepto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28350514">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/highcharts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa_and_react/routes/main.js">
+    <entry file="file://$PROJECT_DIR$/Vue/examples/commits/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23696682">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.13461539">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/examples/commits/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38372093">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/vue/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3223982">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/vue/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41860464">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding />
         </state>
       </provider>
