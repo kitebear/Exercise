@@ -23,7 +23,7 @@ router.get('/download1',function(req,res,next){
   var fileType = rx[2]
 
   console.log(fs.statSync(filepath))
-  var pdf = fs.createReadStream(filepath);
+  var pdf = fs.createReadStream(filepath)
 
   res.writeHead(200, {
     'Content-Type': 'application/force-download',
